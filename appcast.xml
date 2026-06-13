@@ -4,6 +4,28 @@
     <title>spitr</title>
     <description>spitr updates</description>
     <item>
+      <title>spitr 0.5.2</title>
+      <pubDate>Sat, 13 Jun 2026 17:29:51 +0000</pubDate>
+      <sparkle:version>502</sparkle:version>
+      <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>fix(ci): sign CI builds with spitr-dev, not ad-hoc
+
+A self-signed cert imported into a fresh CI keychain isn't trusted, so
+bundle.sh's `find-identity -v` (valid-only) couldn't see it and silently
+fell back to ad-hoc — which Sparkle rejects on update and which breaks TCC
+permission continuity. Fixes:
+- bundle.sh honors a SIGN_IDENTITY override (CI sets it to spitr-dev),
+  bypassing the validity check, and asserts the result is actually signed
+  by that identity — failing loudly instead of shipping ad-hoc. The assert
+  captures codesign output before matching to avoid a pipefail/grep -q
+  SIGPIPE race.
+- workflow sets SIGN_IDENTITY=spitr-dev and best-effort-trusts the cert.
+
+Co-Authored-By: Claude Fable 5 &lt;noreply@anthropic.com&gt;</description>
+      <enclosure url="https://github.com/MotionComplex/spitr-releases/releases/download/v0.5.2/spitr-0.5.2.dmg" sparkle:edSignature="CdfoQ2azrgoqabe6AMykbd5len9LxfLS9W67c0jotFmCHIxsHrMZMSysHjkStn6mZ2vEEUHMygyOBODuUBBxCw==" length="4141621" type="application/octet-stream" />
+    </item>
+    <item>
       <title>spitr 0.5.0</title>
       <pubDate>Sat, 13 Jun 2026 13:51:13 +0000</pubDate>
       <sparkle:version>500</sparkle:version>
