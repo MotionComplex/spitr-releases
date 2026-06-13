@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>spitr</title>
+    <description>spitr updates</description>
+    <item>
+      <title>spitr 0.5.0</title>
+      <pubDate>Sat, 13 Jun 2026 13:51:13 +0000</pubDate>
+      <sparkle:version>500</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>Auto-updates (Sparkle), in-app Settings, transcript history, frosted-glass HUD with hands-free dictation and TTS controls, and stability fixes.</description>
+      <enclosure url="https://github.com/MotionComplex/spitr-releases/releases/download/v0.5.0/spitr-0.5.0.dmg" sparkle:edSignature="7zY+y1ApNpcHCGP+mX9fGX+CJWb4BFPJgbVbAPFVee31eXnkenM6oTypGULzTT8MU9auTuVnPcWdgfyJ9KIACQ==" length="4184925" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
