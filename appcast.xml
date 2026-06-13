@@ -4,6 +4,28 @@
     <title>spitr</title>
     <description>spitr updates</description>
     <item>
+      <title>spitr 0.5.3</title>
+      <pubDate>Sat, 13 Jun 2026 17:50:39 +0000</pubDate>
+      <sparkle:version>503</sparkle:version>
+      <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>fix: load fonts via Bundle.main, not Bundle.module (relocatable builds)
+
+SwiftPM's Bundle.module accessor bakes in an absolute .build/release path
+and fatal-errors at launch when that path is absent. Local builds happened
+to find it (the path exists on the build machine), masking the bug — but
+any relocated build (CI, another Mac, the installed DMG on a fresh machine)
+crashed in Theme.registerFonts at startup.
+
+Fonts now live in the app bundle's Resources/Fonts and load via Bundle.main;
+Bundle.module is only a dev fallback for `swift run`. bundle.sh copies the
+.ttf files there directly and no longer ships the SwiftPM resource bundle.
+Verified: the app launches with .build removed.
+
+Co-Authored-By: Claude Fable 5 &lt;noreply@anthropic.com&gt;</description>
+      <enclosure url="https://github.com/MotionComplex/spitr-releases/releases/download/v0.5.3/spitr-0.5.3.dmg" sparkle:edSignature="Wnn2HoRZuhfYRUvB/onNcZXlTE/TrupY6hKWPN8EdG1BStqOteWewrKR5naxnKHIMTaBoUC5IW0hMsaBGxQbDg==" length="4141966" type="application/octet-stream" />
+    </item>
+    <item>
       <title>spitr 0.5.0</title>
       <pubDate>Sat, 13 Jun 2026 13:51:13 +0000</pubDate>
       <sparkle:version>500</sparkle:version>
