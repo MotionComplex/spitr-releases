@@ -4,6 +4,31 @@
     <title>spitr</title>
     <description>spitr updates</description>
     <item>
+      <title>spitr 0.5.1</title>
+      <pubDate>Sat, 13 Jun 2026 17:20:02 +0000</pubDate>
+      <sparkle:version>501</sparkle:version>
+      <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>ci: tag-triggered auto-release via GitHub Actions
+
+Push a version tag (or run the workflow manually) and a macOS runner builds,
+code-signs, EdDSA-signs, and publishes the release + appcast to the public
+spitr-releases repo — the same make release pipeline, in CI.
+
+- .github/workflows/release.yml: imports the spitr-dev cert into a temp
+  keychain, writes the Sparkle key from a secret, derives version/notes from
+  the tag, runs make-release.sh
+- make-release.sh: when SPARKLE_ED_KEY_FILE / RELEASES_REPO_TOKEN are set
+  (CI) it signs from the key file and pushes via the token; otherwise uses
+  the keychain + local gh auth as before (verified file-signing yields a
+  byte-identical signature)
+- README: Continuous release (CI) section with the four required secrets and
+  how to produce them; reiterates backing keys up to a password manager
+
+Co-Authored-By: Claude Fable 5 &lt;noreply@anthropic.com&gt;</description>
+      <enclosure url="https://github.com/MotionComplex/spitr-releases/releases/download/v0.5.1/spitr-0.5.1.dmg" sparkle:edSignature="ump5sxEJpyj6G6dAW0YkilDo4PLn1jzlvQL6TJ8f3vBMwu9flCKjfaw+CU4viqUA6eli9yRjVlR9E2TW/M5wCw==" length="4127552" type="application/octet-stream" />
+    </item>
+    <item>
       <title>spitr 0.5.0</title>
       <pubDate>Sat, 13 Jun 2026 13:51:13 +0000</pubDate>
       <sparkle:version>500</sparkle:version>
