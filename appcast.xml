@@ -4,6 +4,23 @@
     <title>spitr</title>
     <description>spitr updates</description>
     <item>
+      <title>spitr 0.5.4</title>
+      <pubDate>Mon, 15 Jun 2026 14:20:59 +0000</pubDate>
+      <sparkle:version>504</sparkle:version>
+      <sparkle:shortVersionString>0.5.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>feat(dmg): styled installer window (on-brand background + layout)
+
+make-dmg.sh now stages a writable image, sets an icon-view Finder window
+with the committed Meridian background (dark graphite, Orbitron wordmark,
+lemon drag arrow), positions the app and Applications symlink, then
+converts to compressed read-only. Background is pre-rendered by
+make-dmg-bg.swift and committed so the release pipeline renders nothing.
+
+Co-Authored-By: Claude Fable 5 &lt;noreply@anthropic.com&gt;</description>
+      <enclosure url="https://github.com/MotionComplex/spitr-releases/releases/download/v0.5.4/spitr-0.5.4.dmg" sparkle:edSignature="tkBEWVTQIxjvPK83PqETwHkSFBAisnwMsAACwTAyMyP5c7+AJR6ulxNVE82Pmw4eOg/Jw2VqkJDa7vhQm1VWBw==" length="3610352" type="application/octet-stream" />
+    </item>
+    <item>
       <title>spitr 0.5.3</title>
       <pubDate>Sat, 13 Jun 2026 17:50:39 +0000</pubDate>
       <sparkle:version>503</sparkle:version>
