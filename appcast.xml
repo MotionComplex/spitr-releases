@@ -4,6 +4,31 @@
     <title>spitr</title>
     <description>spitr updates</description>
     <item>
+      <title>spitr 0.5.6</title>
+      <pubDate>Fri, 03 Jul 2026 01:14:03 +0000</pubDate>
+      <sparkle:version>506</sparkle:version>
+      <sparkle:shortVersionString>0.5.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>fix(macos): insert dictation into Firefox/Gecko browsers and other AX-opaque apps
+
+The insert gate refused to paste whenever the AX API couldn't positively
+confirm a focused text field. Firefox/Gecko browsers (Zen, Firefox) and some
+Electron/sandboxed apps expose only an AXWindow with no text info, so every
+dictation into them was stranded in the tray menu with "Nothing was inserted".
+
+A synthetic ⌘V needs no accessibility at all, so flip the gate to permissive:
+paste by default, and only refuse for Finder/desktop or a positively-identified
+non-text control. Also wake up Chromium/Electron AX trees at record start
+(AXManualAccessibility) so their fields and cursor context are readable.
+
+Also fix scripts/make-cert.sh: OpenSSL 3 writes a PKCS#12 MAC that Apple's
+`security import` rejects; add -legacy so the stable signing cert (which keeps
+the Accessibility grant across rebuilds) can actually be created.
+
+Co-Authored-By: Claude Opus 4.8 (1M context) &lt;noreply@anthropic.com&gt;</description>
+      <enclosure url="https://github.com/MotionComplex/spitr-releases/releases/download/v0.5.6/spitr-0.5.6.dmg" sparkle:edSignature="MWL0MYuj1PxkQm7H9JwnCZCBMKfTQv0aDEqzk2c7ilU68hn6RNylhY6kPC/Jj7pZ1NGmp3Vh5dExdnEYheyiDQ==" length="3599803" type="application/octet-stream" />
+    </item>
+    <item>
       <title>spitr 0.5.5</title>
       <pubDate>Mon, 15 Jun 2026 14:48:09 +0000</pubDate>
       <sparkle:version>505</sparkle:version>
