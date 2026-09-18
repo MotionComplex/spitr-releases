@@ -4,6 +4,21 @@
     <title>spitr</title>
     <description>spitr updates</description>
     <item>
+      <title>spitr 0.6.0</title>
+      <pubDate>Fri, 18 Sep 2026 13:15:00 +0000</pubDate>
+      <sparkle:version>600</sparkle:version>
+      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>Style profiles: spitr now matches your writing style to what you are working in.
+
+- Profiles (Dev, Normal, Email) bundle a tone, your own instructions, the apps they cover, and window-title keywords for browser tabs.
+- Auto-detect picks a profile from the frontmost app and its focused window; you can also pick one by hand from the new Style item in the menu bar menu.
+- Formatting toggles per profile: bullet and numbered lists, paragraph breaks, spoken markdown, task checkboxes, and plain-text-only for terminals and editors.
+- Edit everything in Settings, plus a general style rules field that applies everywhere.
+- New Setup Assistant step for the writing style, and 'Spitr --diagnose-profile' to see what gets detected.</description>
+      <enclosure url="https://github.com/MotionComplex/spitr-releases/releases/download/v0.6.0/spitr-0.6.0.dmg" sparkle:edSignature="KPF4skjgpwiegg9pOCKLbmK5YbOXiwpr1Pd1ojip81yDynLv0IIUdxV1bhyBWv3qHp06Bsqg93OPaU/4ZzDfBQ==" length="3672814" type="application/octet-stream" />
+    </item>
+    <item>
       <title>spitr 0.5.6</title>
       <pubDate>Fri, 03 Jul 2026 01:14:03 +0000</pubDate>
       <sparkle:version>506</sparkle:version>
