@@ -4,6 +4,15 @@
     <title>spitr</title>
     <description>spitr updates</description>
     <item>
+      <title>spitr 0.8.0</title>
+      <pubDate>Sat, 19 Sep 2026 15:29:32 +0000</pubDate>
+      <sparkle:version>800</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>spitr 0.8.0</description>
+      <enclosure url="https://github.com/MotionComplex/spitr-releases/releases/download/v0.8.0/spitr-0.8.0.dmg" sparkle:edSignature="+AP/s8WjflXW+YO+izd81q86MreaoLNwmFFaw8R8yzvyASHxY4MvtvdY/dFb0euqbux5gVXQDCWXgT3JBPIxDw==" length="3739878" type="application/octet-stream" />
+    </item>
+    <item>
       <title>spitr 0.7.1</title>
       <pubDate>Sat, 19 Sep 2026 15:08:42 +0000</pubDate>
       <sparkle:version>701</sparkle:version>
