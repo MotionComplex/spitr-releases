@@ -4,6 +4,28 @@
     <title>spitr</title>
     <description>spitr updates</description>
     <item>
+      <title>spitr 0.9.0</title>
+      <pubDate>Sat, 19 Sep 2026 17:45:31 +0000</pubDate>
+      <sparkle:version>900</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>spitr 0.9.0
+
+Cleanup providers
+- The cleanup pass can now run on Anthropic, OpenAI, Groq, OpenRouter, Ollama, or any OpenAI-compatible endpoint. Pick the provider and model in Settings › AI CLEANUP; keys are stored per provider (providers.&lt;id&gt;.api_key), Anthropic keys stay in anthropic_api_key.
+- Sonnet 5 replaces Sonnet 4.6 in the model picker. Existing configs keep working.
+- Onboarding step 04 and Check Permissions report the real cleanup status for whichever provider is selected.
+
+Dictation languages
+- New "languages" config key (Settings › BEHAVIOR › Languages), defaulting to your Mac's preferred languages plus English.
+- The recognizer receives a script hint and any transcript that comes back in another alphabet (the Parakeet Cyrillic flip) is discarded with the error sound, a status line, and a notification — never pasted.
+- The cleanup prompt names your configured languages instead of assuming English or German.
+
+Release tooling
+- Local releases sign from the spitr-scoped keychain account, so a Sparkle key from another project can no longer be used by mistake.</description>
+      <enclosure url="https://github.com/MotionComplex/spitr-releases/releases/download/v0.9.0/spitr-0.9.0.dmg" sparkle:edSignature="iUcP2h7EkzwYUD0C5kc7R03ncW3K32CH1I8cchote5GfRCYJfwr3QNjyLnZwouOl9TvbD3EgakMyQEwPqJIuDg==" length="3766895" type="application/octet-stream" />
+    </item>
+    <item>
       <title>spitr 0.8.0</title>
       <pubDate>Sat, 19 Sep 2026 15:29:32 +0000</pubDate>
       <sparkle:version>800</sparkle:version>
