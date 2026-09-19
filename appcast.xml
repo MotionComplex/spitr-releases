@@ -4,6 +4,22 @@
     <title>spitr</title>
     <description>spitr updates</description>
     <item>
+      <title>spitr 0.7.0</title>
+      <pubDate>Sat, 19 Sep 2026 14:54:51 +0000</pubDate>
+      <sparkle:version>700</sparkle:version>
+      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>Glass restyle.
+
+The setup and settings windows now match spitr’s own recording island: frosted glass on a vibrant ground, floating cards, capsule buttons, and a lit hero. The 45° corner cut is gone everywhere — every corner is a continuous curve.
+
+- Every stock macOS popup replaced with a styled menu, so no more system blue
+- Text contrast lifted to WCAG AA across both windows
+- Toggles ghost the lemon accent instead of competing with the primary action
+- Every colour, radius and curve now flows from a single design-token file</description>
+      <enclosure url="https://github.com/MotionComplex/spitr-releases/releases/download/v0.7.0/spitr-0.7.0.dmg" sparkle:edSignature="kQm+RPh7qwUlrPITOj24EYR1QI5rTZOx7pOoQxY1fLSy5Ruvz+jV1x3/E9pc6ZEqXf2QUqqgr0Rpp7xHDbqjAw==" length="3694499" type="application/octet-stream" />
+    </item>
+    <item>
       <title>spitr 0.6.0</title>
       <pubDate>Fri, 18 Sep 2026 13:15:00 +0000</pubDate>
       <sparkle:version>600</sparkle:version>
