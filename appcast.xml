@@ -4,6 +4,18 @@
     <title>spitr</title>
     <description>spitr updates</description>
     <item>
+      <title>spitr 0.9.1</title>
+      <pubDate>Sun, 20 Sep 2026 22:02:07 +0000</pubDate>
+      <sparkle:version>901</sparkle:version>
+      <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>spitr 0.9.1
+
+- Every cleanup provider key, Anthropic included, is stored under providers.&lt;id&gt;.api_key. The root anthropic_api_key is still read as a legacy fallback and is cleared the first time you save a key in Settings or onboarding.
+- Releases are now pinned to one code-signing certificate so an update can no longer drop the Accessibility grant.</description>
+      <enclosure url="https://github.com/MotionComplex/spitr-releases/releases/download/v0.9.1/spitr-0.9.1.dmg" sparkle:edSignature="77qFiMGMEl8DVVu7mTUQRFgtRuQ6dTdM3uuhORhhGS6DyXLLHJLmrzmF+QNNbNeaY3PIXS7eDea9xs9A1d8wAQ==" length="3767334" type="application/octet-stream" />
+    </item>
+    <item>
       <title>spitr 0.9.0</title>
       <pubDate>Sat, 19 Sep 2026 17:45:31 +0000</pubDate>
       <sparkle:version>900</sparkle:version>
