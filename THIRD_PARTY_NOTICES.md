@@ -27,6 +27,7 @@ modify it.
 | FluidAudio | macOS | Apache License 2.0 | [github.com/FluidInference/FluidAudio](https://github.com/FluidInference/FluidAudio) |
 | Sparkle | macOS | MIT-style licence (Sparkle `LICENSE`) | [github.com/sparkle-project/Sparkle](https://github.com/sparkle-project/Sparkle) |
 | sherpa-onnx (`org.k2fsa.sherpa.onnx`) | Windows | Apache License 2.0 | [github.com/k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) |
+| ONNX Runtime (`onnxruntime.dll`, shipped with sherpa-onnx) | Windows | MIT | [github.com/microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) |
 | Velopack | Windows | MIT | [github.com/velopack/velopack](https://github.com/velopack/velopack) |
 | NAudio | Windows | MIT | [github.com/naudio/NAudio](https://github.com/naudio/NAudio) |
 | System.Speech | Windows | MIT | [github.com/dotnet/runtime](https://github.com/dotnet/runtime) |

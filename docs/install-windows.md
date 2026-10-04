@@ -14,6 +14,9 @@ Requires 64-bit Windows 10 (version 2004 or later) or Windows 11. spitr for Wind
 2. Double-click `spitr-Setup.exe` (your browser shows it in its downloads, or open your
    **Downloads** folder).
 
+Your browser may warn that `spitr-Setup.exe` is not commonly downloaded. If you got it from the
+releases page above, choose to keep it (in Edge: **…** → **Keep** → **Keep anyway**).
+
 ![The release's asset list, spitr-Setup.exe marked](images/win-1-download.png)
 
 ## 2. Allow the first launch
@@ -33,8 +36,7 @@ administrator rights. It also installs Microsoft's Visual C++ runtime if your PC
 yet (spitr's speech engine needs it); on such a PC Windows may ask for permission once for that
 runtime. Setup puts spitr in your Start menu, adds a shortcut on your Desktop, lists it under
 **Settings → Apps**, and starts it. spitr's icon appears in the tray next to the clock; if you do
-not see it, click the **^** there. This is the only time SmartScreen stops you: updates (below) are installed
-by spitr itself and do not ask again.
+not see it, click the **^** there. Updates later install without this prompt.
 
 ## 3. Wait for the speech model
 
@@ -89,7 +91,8 @@ cursor. **Esc** while recording cancels. Select text and press **Ctrl+Alt+S** to
 
 spitr updates itself. Half a minute after it starts, and then once a day, it looks for a newer
 *spitr for Windows* release and downloads it in the background. The update is installed the next
-time spitr restarts or you quit it from the tray; nothing interrupts what you are doing.
+time spitr restarts or you quit it from the tray. A small notification tells you when an update is
+ready; nothing else interrupts what you are doing.
 
 - **Install it now:** once an update has been downloaded, the tray menu shows **Restart to
   Update (x.y.z)**. Click it and spitr restarts into the new version.
@@ -114,7 +117,9 @@ Earlier Windows releases came as a zip you unpacked into a folder. To switch:
 
 | Symptom | Fix |
 | --- | --- |
-| Row 01 reports that the download failed (the tray says *Speech model download failed*) | Tray icon → **Setup Assistant…** → **RETRY DOWNLOAD**. It carries on and checks every file. The row names the cause: for *Not enough free space*, free up room on the drive it names (the download needs just under 1 GB free: the 670 MB model plus a safety margin; the row gives the exact figure); for a connection or checksum error, check that your firewall, VPN or proxy lets spitr reach `huggingface.co` (it sends the download on to its own file servers), then retry. |
+| Row 01 reports that the download failed (the tray says *Speech model download failed*) | Tray icon → **Setup Assistant…** → **RETRY DOWNLOAD**. It carries on where it stopped and checks every file. The row names the cause; see the next two rows. |
+| Row 01 says *Not enough free space* | Free up room on the drive it names, then click **RETRY DOWNLOAD**. The download needs just under 1 GB free (the 670 MB model plus a safety margin); the row gives the exact figure. |
+| Row 01 reports a connection or checksum error | Check that your firewall, VPN or proxy lets spitr reach `huggingface.co` (it sends the download on to its own file servers), then click **RETRY DOWNLOAD**. |
 | Row 01 says the speech model looks damaged | Click **RETRY DOWNLOAD** in the same row: it replaces any file that is wrong and keeps the rest. |
 | The recording island appears but no text arrives | Microphone settings from step 4, and the right input device in **Settings → System → Sound**. |
 | Text does not appear in an admin window (e.g. an elevated terminal) | Windows blocks input from normal apps into elevated ones. Run spitr as administrator for that window, or use a normal window. |

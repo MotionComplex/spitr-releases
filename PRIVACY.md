@@ -25,8 +25,9 @@ hello@eliasdouglas.ch.
 | --- | --- | --- |
 | You set up AI cleanup with your own key | The transcript of each dictation, your style rules and the name of the matching style profile | The provider you chose (e.g. Anthropic, OpenAI, Groq, OpenRouter). With Ollama or another local endpoint, nothing leaves your computer. Without a key, nothing is sent. |
 | You set an ElevenLabs key for read-aloud | The text you selected to be read aloud | ElevenLabs. Without that key, read-aloud uses your system voice on your computer. |
-| First launch on macOS or Windows | A download request for the speech model | Hugging Face (huggingface.co) |
-| Once a day on macOS, and when you install an update. On Windows, with a copy installed by Setup: shortly after launch, then once a day, and when you install an update | A request for the update feed (macOS: `appcast.xml`; Windows: the list of spitr's releases) and the update itself, which shows GitHub your IP address and that spitr is checking, and on macOS the app version | GitHub (macOS: raw.githubusercontent.com, github.com; Windows: api.github.com, github.com) |
+| First launch on macOS or Windows, or whenever the speech model is missing (including a retry after a failed download) | A download request for the speech model | Hugging Face (huggingface.co) |
+| Setup on Windows, only on a PC that does not have Microsoft's Visual C++ runtime yet | A download request for that runtime | Microsoft (aka.ms) |
+| Once a day on macOS, and when you install an update. On Windows, with a copy installed by Setup: shortly after launch and then once a day, and when you choose Check for Updates (the update is downloaded right after a check finds one; installing it makes no request) | A request for the update feed (macOS: `appcast.xml`; Windows: the list of spitr's releases) and, when there is one, the update itself, which shows GitHub your IP address and that spitr is checking, and on macOS the app version | GitHub (macOS: raw.githubusercontent.com, github.com; Windows: api.github.com, github.com) |
 
 The cleanup and read-aloud providers process your text under their own terms and privacy policies,
 under your own account with them, and may charge you for it. spitr has no influence on what they
