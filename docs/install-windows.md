@@ -28,10 +28,12 @@ The build is not code-signed, so Microsoft Defender SmartScreen stops Setup the 
 Only do this for a file you downloaded from
 [github.com/MotionComplex/spitr-releases](https://github.com/MotionComplex/spitr-releases/releases).
 
-Setup installs spitr for your own Windows account only, so it does not need administrator rights.
-It puts spitr in your Start menu, adds a shortcut on your Desktop, lists it under **Settings →
-Apps**, and starts it. spitr's icon appears in the tray next to the clock; if you do not see it,
-click the **^** there. This is the only time SmartScreen stops you: updates (below) are installed
+Setup installs spitr for your own Windows account only, so spitr itself does not need
+administrator rights. It also installs Microsoft's Visual C++ runtime if your PC does not have it
+yet (spitr's speech engine needs it); on such a PC Windows may ask for permission once for that
+runtime. Setup puts spitr in your Start menu, adds a shortcut on your Desktop, lists it under
+**Settings → Apps**, and starts it. spitr's icon appears in the tray next to the clock; if you do
+not see it, click the **^** there. This is the only time SmartScreen stops you: updates (below) are installed
 by spitr itself and do not ask again.
 
 ## 3. Wait for the speech model
