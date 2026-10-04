@@ -38,6 +38,11 @@ modify it.
 | Orbitron | SIL Open Font License 1.1 | [fonts.google.com/specimen/Orbitron](https://fonts.google.com/specimen/Orbitron) |
 | Space Mono | SIL Open Font License 1.1 | [fonts.google.com/specimen/Space+Mono](https://fonts.google.com/specimen/Space+Mono) |
 
+The macOS app ships Orbitron unmodified. The Windows app ships three static weights derived from
+it, renamed **Spitr Display** because the Open Font License reserves the name "Orbitron" for
+unmodified versions; they remain under the SIL Open Font License 1.1. Both apps include the
+licence texts (`OFL-Orbitron.txt`, `OFL-SpaceMono.txt`).
+
 ## Trademarks
 
 NVIDIA, Parakeet, Apple, macOS, Microsoft, Windows, Anthropic, OpenAI, Groq, OpenRouter, Ollama and

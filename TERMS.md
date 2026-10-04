@@ -8,6 +8,8 @@ hello@eliasdouglas.ch ("we").
 
 ## 1. Licence
 
+The licence is also in [LICENSE](LICENSE).
+
 spitr is free of charge. You may download, install and use it on your own devices, privately and
 at work. You may not sell it, redistribute modified copies, or remove these terms or the notices in
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The source code is not published. Components by
