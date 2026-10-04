@@ -13,9 +13,9 @@ spitr uses converted versions of this model, which are also CC BY 4.0:
 
 - macOS: the CoreML conversion by FluidInference,
   [huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml](https://huggingface.co/FluidInference/parakeet-tdt-0.6b-v3-coreml).
-- Windows: the sherpa-onnx export by the k2-fsa project,
-  `sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8`,
-  [github.com/k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/releases/tag/asr-models).
+- Windows: the sherpa-onnx export `sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8`, published on
+  Hugging Face by csukuangfj, a maintainer of the k2-fsa project's sherpa-onnx,
+  [huggingface.co/csukuangfj/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8](https://huggingface.co/csukuangfj/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8).
 
 The model is downloaded from these sources, not distributed in this repository. spitr does not
 modify it.
@@ -27,6 +27,7 @@ modify it.
 | FluidAudio | macOS | Apache License 2.0 | [github.com/FluidInference/FluidAudio](https://github.com/FluidInference/FluidAudio) |
 | Sparkle | macOS | MIT-style licence (Sparkle `LICENSE`) | [github.com/sparkle-project/Sparkle](https://github.com/sparkle-project/Sparkle) |
 | sherpa-onnx (`org.k2fsa.sherpa.onnx`) | Windows | Apache License 2.0 | [github.com/k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) |
+| Velopack | Windows | MIT | [github.com/velopack/velopack](https://github.com/velopack/velopack) |
 | NAudio | Windows | MIT | [github.com/naudio/NAudio](https://github.com/naudio/NAudio) |
 | System.Speech | Windows | MIT | [github.com/dotnet/runtime](https://github.com/dotnet/runtime) |
 | .NET runtime (bundled) | Windows | MIT | [github.com/dotnet/runtime](https://github.com/dotnet/runtime) |
