@@ -12,7 +12,7 @@ This repository hosts the builds and the update feed. The source code is private
 | | Requirements | Get it |
 | --- | --- | --- |
 | **macOS** | macOS 14 or later, Apple silicon (M1 or newer) | `spitr-<version>.dmg` from the [latest release](https://github.com/MotionComplex/spitr-releases/releases/latest) |
-| **Windows** (pre-release) | 64-bit Windows 10 (2004 or later) or Windows 11 | `spitr-win-x64-<version>.zip` from the newest *spitr for Windows* entry on the [releases page](https://github.com/MotionComplex/spitr-releases/releases) |
+| **Windows** (pre-release) | 64-bit Windows 10 (2004 or later) or Windows 11 | `spitr-Setup.exe` from the newest *spitr for Windows* entry on the [releases page](https://github.com/MotionComplex/spitr-releases/releases) |
 
 Both are free.
 
@@ -22,8 +22,8 @@ Step by step, with a picture of every dialog:
 
 - **[Install on macOS](docs/install-macos.md):** allow the first launch, then grant Microphone and
   Accessibility.
-- **[Install on Windows](docs/install-windows.md):** get past SmartScreen, install the speech
-  model, allow the microphone.
+- **[Install on Windows](docs/install-windows.md):** run Setup and get past SmartScreen, the speech
+  model downloads itself, allow the microphone.
 
 ## Quick start
 
