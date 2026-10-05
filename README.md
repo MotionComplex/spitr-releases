@@ -33,6 +33,7 @@ Step by step, with a picture of every dialog:
 | Cancel while recording | **Esc** | **Esc** |
 | Read selected text aloud | **⌃⌥S** | **Ctrl+Alt+S** |
 | Settings, style, permissions check | Menu bar icon | Tray icon |
+| Updates | Checked daily, offered to install; or menu bar icon → **Check for Updates…** | Downloaded in the background, applied on the next restart; or tray icon → **Check for Updates…** |
 
 ## Privacy in one paragraph
 
